@@ -1,0 +1,24 @@
+classify
+classify/iab-qag
+classify/iptc-subjectcode
+sentiment
+asba/{domain}
+entities
+concepts
+summarize
+extract
+hashtags
+
+combined
+	endpoint=entities,concepts,classify,...
+
+
+batch
+	5MB size limit
+	queued response; not time sensitive
+	N docs * M endpoints = requests
+	premium only feature
+
+
+SDKs for PHP, Python, NodeJS, Java, Ruby, Go, and C# 
+
